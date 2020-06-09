@@ -1,0 +1,21 @@
+{
+  "name": "camilasampsonexamen",
+  "version": "1.0.0",
+  "description": "Examen I Parcial Negocios Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/SampsonRubio/ExamenNegocioWebIParcial.git"
+  },
+  "keywords": [
+    "examen"
+  ],
+  "author": "Camila Sampson",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
