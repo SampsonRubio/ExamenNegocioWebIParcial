@@ -1,12 +1,11 @@
 const express = require("express");
 
-//Importar controladores
-const proyectosController = require("../controllers/proyectoController")
-
 const routes = express.Router();
 
-
+const proyectoController = require("../controller/proyectoController");
 module.exports = function () {
-  routes.get("/", proyectosController.home)
+  routes.get("/", proyectoController.home);
+  routes.post("/amortizacion", proyectoController.calculoA);
   return routes;
 };
+
